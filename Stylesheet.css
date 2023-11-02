@@ -1,0 +1,1290 @@
+
+body{
+  box-sizing: border-box;
+}
+.seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:300; color:bisque; letter-spacing:1px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:darkslategrey ;
+        background-size: 150px;
+        border-radius: 30px;
+        outline-color: darkslategray;
+        outline-width: 7px;
+        outline-style: auto;
+        
+
+        height: 50px;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+       
+        }
+        
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 3px solid darkred;
+        border-top: 3px solid darkred;
+        height: 5px;
+      background-color:beige;
+
+        -webkit-animation: flicker-in-2 2s linear both;
+                animation: flicker-in-2 2s linear both;
+      }
+
+ 
+    
+    h1{
+      -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  background-color:bisque;
+  border-radius: 50px;
+  height: 40px;
+  outline: 6px;
+  outline-color: darkslategray;
+  outline-style: solid;
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+ html{
+  scroll-behavior: smooth;
+ }
+    
+
+#navbar:hover{
+  background-color: rgb(252, 223, 187);
+padding: 5px 10px;
+  border-radius: 20px;
+  outline:solid #8b0000 2px;
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+  
+
+
+  
+
+
+a{
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: #8b0000;
+  outline-width: 1px;
+ 
+ 
+
+
+}
+
+input{
+  color: #ffe4c4;
+  background-color: #8b0000;
+  outline: 0px;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+ 
+  
+
+}
+body{
+  background-color: cornsilk;
+
+  }
+  
+
+.search{
+  background-color: darkgrey;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  outline: 12px;
+  outline-style: auto;
+  outline-color: #8b0000;
+
+  }
+  
+
+
+#trending{
+ 
+  font-size:30px; font-weight:300; color:darkslategray; letter-spacing:1px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:bisque ;
+  border-radius: 15px;
+text-align: center;
+outline: 10px;
+outline-color: #8b0000;
+outline-style: double;
+width: 320px;
+margin: auto;
+margin-top: 25px;
+-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            }
+
+
+
+  
+
+
+
+.songss{
+  background-color: bisque;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 430px;
+  outline: 8px;
+  outline-color: darkslategrey;
+  outline-style: solid;
+  align-items: center;
+  text-align: center;
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
+  }
+
+
+img{
+  border-radius: 18px;
+  align-items: center;
+  }
+  
+  .imgg{
+    border-radius: 18px;
+    outline: #8b0000;
+    outline-width: 2px;
+    outline-style: solid;
+
+  }
+
+
+  .songsss{
+    background-color: bisque;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 450px;
+    outline: 8px;
+    outline-color: darkslategrey;
+    outline-style: solid;
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+    }
+  
+ #aboutext{
+  font-size: large;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+  position:relative;
+  left: 380px;
+  bottom: 350px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+
+ }
+  
+
+#title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-style: bold;
+text-align: center;
+}
+audio{
+  padding-right: 15px;
+  color: #8b0000;
+  width: 500px;
+    -webkit-animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+#kalaastarr{
+  padding-right: 15px;
+  color: #8b0000;
+  width: 500px;
+  position:relative;
+  text-align: center;
+  left: 550px;
+  bottom: 350px;
+  align-items: center;
+    -webkit-animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+            img:hover{
+              -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                
+               }
+               
+              
+             
+  
+
+#news{
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 16px;
+  margin-right: 12px;
+  height:80px ;
+ 
+  }
+ 
+
+#tranding{
+  font-size:15px; font-weight:300; color:darkslategray; letter-spacing:1px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:bisque ;
+  border-radius: 15px;
+text-align: center;
+outline: 10px;
+outline-color: #8b0000;
+outline-style: double;
+width: 320px;
+margin: auto;
+MARGIN-TOP: -23px;
+-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#trnding{
+  font-size: 24px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    border-radius: 15px;
+    text-align: center;
+    outline: 10px;
+    outline-color: #8b0000;
+    outline-style: double;
+    width: 334px;
+    margin: auto;
+    MARGIN-TOP: 9px;
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+ @-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+ @-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+ @-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 18:48:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 18:48:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 19:6:14
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * @animation flicker-in-2
+ * ----------------------------------------
+ */
+ @-webkit-keyframes flicker-in-2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+  }
+  60% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+  }
+  60.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@keyframes flicker-in-2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+  }
+  60% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3);
+  }
+  60.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.3), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 19:28:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-hor-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 19:37:5
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 19:44:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation puff-in-hor
+ * ----------------------------------------
+ */
+ @-webkit-keyframes puff-in-hor {
+  0% {
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-hor {
+  0% {
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 19:57:28
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation pulsate-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-27 20:22:56
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation wobble-hor-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-28 14:26:58
+  * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+    * w: http://animista.net, t: @cssanimista
+     * ---------------------------------------------- */
+
+     /**
+      * ----------------------------------------
+       * animation slide-fwd-center
+        * ----------------------------------------
+         */
+         @-webkit-keyframes slide-fwd-center {
+            0% {
+                  -webkit-transform: translateZ(0);
+                              transform: translateZ(0);
+            }
+              100% {
+                    -webkit-transform: translateZ(160px);
+                                transfotrm: translateZ(160px);
+              }
+            }
+            @keyframes slide-fwd-center {
+                0% {
+                      -webkit-transform: translateZ(0);
+                                  transform: translateZ(0);
+                }
+                  100% {
+                        -webkit-transform: translateZ(160px);
+                                    transform: translateZ(160px);
+                  }
+                }
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-31 12:15:26
+  * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+    * w: http://animista.net, t: @cssanimista
+     * ---------------------------------------------- */
+
+     /**
+      * ----------------------------------------
+       * animation shake-horizontal
+        * ----------------------------------------
+         */
+         @-webkit-keyframes shake-horizontal {
+            0%,
+              100% {
+                    -webkit-transform: translateX(0);
+                                transform: translateX(0);
+              }
+                10%,
+                  30%,
+                    50%,
+                      70% {
+                            -webkit-transform: translateX(-10px);
+                                        transform: translateX(-10px);
+                      }
+                        20%,
+                          40%,
+                            60% {
+                                  -webkit-transform: translateX(10px);
+                                              transform: translateX(10px);
+                            }
+                              80% {
+                                    -webkit-transform: translateX(8px);
+                                                transform: translateX(8px);
+                              }
+                                90% {
+                                      -webkit-transform: translateX(-8px);
+                                                  transform: translateX(-8px);
+                                }
+                              }
+                              @keyframes shake-horizontal {
+                                  0%,
+                                    100% {
+                                          -webkit-transform: translateX(0);
+                                                      transform: translateX(0);
+                                    }
+                                      10%,
+                                        30%,
+                                          50%,
+                                            70% {
+                                                  -webkit-transform: translateX(-10px);
+                                                              transform: translateX(-10px);
+                                            }
+                                              20%,
+                                                40%,
+                                                  60% {
+                                                        -webkit-transform: translateX(10px);
+                                                                    transform: translateX(10px);
+                                                  }
+                                                    80% {
+                                                          -webkit-transform: translateX(8px);
+                                                                      transform: translateX(8px);
+                                                    }
+                                                      90% {
+                                                            -webkit-transform: translateX(-8px);
+                                                                        transform: translateX(-8px);
+                                                      }
+                                                    }
+/* ----------------------------------------------
+ * Generated by Animista on 2023-10-31 12:20:46
+  * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+    * w: http://animista.net, t: @cssanimista
+     * ---------------------------------------------- */
+
+     /**
+      * ----------------------------------------
+       * animation shadow-drop-2-center
+        * ----------------------------------------
+         */
+         @-webkit-keyframes shadow-drop-2-center {
+            0% {
+                  -webkit-transform: translateZ(0);
+                              transform: translateZ(0);
+                                  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                                              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+              100% {
+                    -webkit-transform: translateZ(50px);
+                                transform: translateZ(50px);
+                                    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
+                                                box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
+              }
+            }
+            @keyframes shadow-drop-2-center {
+                0% {
+                      -webkit-transform: translateZ(0);
+                                  transform: translateZ(0);
+                                      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                                                  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                }
+                  100% {
+                        -webkit-transform: translateZ(50px);
+                                    transform: translateZ(50px);
+                                        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
+                                                    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
+                  }
+                }
+
+ /* ----------------------------------------------
+ * Generated by Animista on 2023-11-1 13:40:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-11-1 13:52:10
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
